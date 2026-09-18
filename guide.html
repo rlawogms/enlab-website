@@ -63,6 +63,12 @@ a { color: inherit; }
 .cta-section p { font-size: 13.5px; color: rgba(255,255,255,0.65); margin-bottom: 22px; }
 .btn-primary { background: #FF6A1A; color: #fff; padding: 14px 30px; border-radius: 10px; font-size: 14.5px; font-weight: 700; text-decoration: none; display: inline-block; }
 
+.member-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 32px; }
+.member-card { background: #fff; border: 1px solid #EAEAEA; border-radius: 14px; padding: 20px; }
+.member-card h3 { font-size: 14px; font-weight: 800; margin-bottom: 8px; color: #FF6A1A; }
+.member-card p { font-size: 13px; color: #555; line-height: 1.7; }
+@media (max-width: 700px) { .member-cards { grid-template-columns: 1fr; } }
+
 .footer { background: #fff; border-top: 1px solid #EAEAEA; color: #999; padding: 32px 20px; font-size: 12px; line-height: 1.9; text-align: center; }
 
 @media (max-width: 680px) {
@@ -121,6 +127,22 @@ a { color: inherit; }
         <h3>결제 시 쿠폰 적용</h3>
         <p>원하는 패스 상품 결제 페이지에서 발급된 쿠폰을 선택해 최종 결제 금액을 확인합니다.</p>
       </div>
+    </div>
+  </div>
+
+  <h2 style="margin-top:36px; font-size:18px; font-weight:800; text-align:center;">엔지니어랩 시크릿할인 코드 이용 안내</h2>
+  <div class="member-cards">
+    <div class="member-card">
+      <h3>신규 회원</h3>
+      <p>회원가입 시 시크릿코드 입력란에 코드를 입력하고 가입을 완료합니다.</p>
+    </div>
+    <div class="member-card">
+      <h3>기존 회원</h3>
+      <p>로그인 후 공식 프로모션 페이지의 특별 할인쿠폰 받기 버튼을 통해 혜택을 확인합니다.</p>
+    </div>
+    <div class="member-card">
+      <h3>결제 단계</h3>
+      <p>결제 페이지에서 발급된 쿠폰을 직접 선택하여 할인이 적용된 최종 금액을 확인한 뒤 결제합니다.</p>
     </div>
   </div>
 
