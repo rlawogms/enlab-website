@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://enlab-website.co.kr/sitemap.xml
